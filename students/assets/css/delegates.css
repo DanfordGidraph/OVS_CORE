@@ -1,0 +1,145 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+.all-icons [class*="pe-"]{
+    font-size: 40px;
+}
+.all-icons input{
+    border: 0;
+}
+.all-icons .font-icon-detail{
+    text-align: center;
+    padding: 45px 0px 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+.all-icons .font-icon-detail input{
+    margin: 25px auto 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+
+@media all and (max-width: 991px)  {
+    .sidebar .nav > li.active-pro{
+        position: initial;
+    }
+}
+
+/* Custom CSS */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.well {
+    margin-top:-20px;
+    background-color:#007FBD;
+    border:2px solid #0077B2;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+}
+
+.well:hover {
+    margin-top:-20px;
+    background-color:#0077B2;
+    border:2px solid #0077B2;
+    text-align:center;
+    cursor:pointer;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 0px !important;
+    border-bottom : 2px solid rgba(97, 203, 255, 0.65);
+}
+
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #fff;
+}
+.bg_blur
+{
+    background-image:url('../img/carousel/carousel_8.jpg');
+    height: 300px;
+    background-size: cover;
+}
+
+.header{
+    color : #808080;
+    margin-left:10%;
+    margin-top:70px;
+}
+
+.picture{
+    height:150px;
+    width:150px;
+    position:absolute;
+    top: 75px;
+    left:-75px;
+}
+
+.picture_mob{
+    position: absolute;
+    width: 35%;
+    left: 35%;
+    bottom: 70%;
+}
+
+.btn-style{
+    color: #fff;
+    background-color: #007FBE;
+    border-color: #adadad;
+    width: 33.3%;
+}
+
+.btn-style:hover {
+    color: #333;
+    background-color: #3D5DE0;
+    border-color: #adadad;
+    width: 33.3%;
+   
+}
+
+@media (max-width: 767px) {
+    .header{
+        text-align : center;
+    }
+    .nav{
+        margin-top : 30px;
+    }
+}
+
