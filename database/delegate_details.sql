@@ -42,16 +42,6 @@ CREATE TABLE IF NOT EXISTS `delegate_details` (
   UNIQUE KEY `reg_number` (`reg_number`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `delegate_details`
---
-
-INSERT INTO `delegate_details` (`counter`, `reg_number`, `email`, `user_name`, `firebase_id`, `firebase_pass`, `profile_status`, `school`) VALUES
-(1, 'CT100/G/0200/14', 'sampledelone@outlook.com', 'SAMPLE_DELEGATE_ONE', 'SAMPLE_DELEGATE_ONE_CT100_G_0200_14', 'a45d6a75421c26d1a05c6c5040f9e33c1dc45b6c', 'complete', 'Pure and Applied Science'),
-(2, 'CT100/G/0210/14', 'sampledeltwo@outlook.com', 'SAMPLE_DELEGATE_TWO', 'SAMPLE_DELEGATE_TWO_CT100_G_0210_14', 'a45d6a75421c26d1a05c6c5040f9e33c1dc45b6c', 'complete', 'Pure and Applied Science'),
-(3, 'CT100/G/0220/14', 'sampledelthree@outlook.com', 'SAMPLE_DELEGATE_THREE', 'SAMPLE_DELEGATE_THREE_CT100_G_0220_14', 'a45d6a75421c26d1a05c6c5040f9e33c1dc45b6c', 'complete', 'Pure and Applied Science'),
-(4, 'CT100/G/0230/14', 'sampledelfour@outlook.com', 'SAMPLE_DELEGATE FOUR', 'SAMPLE_DELEGATE FOUR_CT100_G_0230_14', 'a45d6a75421c26d1a05c6c5040f9e33c1dc45b6c', 'complete', 'School of Health Sciences');
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

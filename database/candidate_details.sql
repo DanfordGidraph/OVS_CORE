@@ -42,16 +42,7 @@ CREATE TABLE IF NOT EXISTS `candidate_details` (
   UNIQUE KEY `reg_number` (`reg_number`)
 ) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `candidate_details`
---
 
-INSERT INTO `candidate_details` (`counter`, `reg_number`, `email`, `user_name`, `firebase_id`, `firebase_pass`, `profile_status`, `school`) VALUES
-(1, 'CT100/G/0100/14', 'samplecandone@gmail.com', 'SAMPLE_CANDIDATE_ONE', 'SAMPLE_CANDIDATE_ONE_CT100_G_0100_14', '2b33c20c3c1f4803c7ee21ac8c698ce41912fff0', 'complete', 'Pure and Applied Science'),
-(2, 'CT100/G/0110/14', 'samplecandtwo@gmail.com', 'SAMPLE_CANDIDATE_TWO', 'SAMPLE_CANDIDATE_TWO_CT100_G_0110_14', '2b33c20c3c1f4803c7ee21ac8c698ce41912fff0', 'complete', 'Pure and Applied Science'),
-(3, 'CT100/G/0120/14', 'samplecandthree@gmail.com', 'SAMPLE_CANDIDATE_THREE', 'SAMPLE_CANDIDATE_THREE_CT100_G_0120_14', '2b33c20c3c1f4803c7ee21ac8c698ce41912fff0', 'complete', 'Pure and Applied Science'),
-(4, 'CT100/G/0283/14', 'clarian@mail.com', 'CLARIAN_MAKUNGU', 'CLARIAN_MAKUNGU_CT100_G_0283_14', '112bb791304791ddcf692e29fd5cf149b35fea37', 'complete', 'School of Pure and Applied Sciences');
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

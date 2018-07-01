@@ -41,14 +41,6 @@ CREATE TABLE IF NOT EXISTS `student_details` (
   UNIQUE KEY `reg_number` (`reg_number`)
 ) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `student_details`
---
-
-INSERT INTO `student_details` (`counter`, `reg_number`, `email`, `user_name`, `firebase_id`, `firebase_pass`, `school`) VALUES
-(1, 'CT100/G/0274/14', 'danma@gmail.com', 'DANFORD_MAINOR', 'DANFORD_MAINOR_CT100_G_0274_14', '128389f5a10c572dc91b18e80692999bbc7308f4', 'Pure and Applied Science');
-COMMIT;
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

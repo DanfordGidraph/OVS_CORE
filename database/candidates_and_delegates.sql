@@ -36,21 +36,6 @@ CREATE TABLE IF NOT EXISTS `candidates_and_delegates` (
   PRIMARY KEY (`counter`)
 ) ENGINE=MyISAM AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `candidates_and_delegates`
---
-
-INSERT INTO `candidates_and_delegates` (`counter`, `reg_number`, `designation`) VALUES
-(1, 'CT100/G/0100/14', 'candidate'),
-(2, 'CT100/G/0110/14', 'candidate'),
-(3, 'CT100/G/0120/14', 'candidate'),
-(4, 'CT100/G/0200/14', 'delegate'),
-(5, 'CT100/G/0210/14', 'delegate'),
-(6, 'CT100/G/0220/14', 'delegate'),
-(7, 'CT100/G/0283/14', 'candidate'),
-(8, 'CT100/G/0230/14', 'delegate'),
-(9, 'CT100/G/0230/14', 'delegate');
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
